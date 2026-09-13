@@ -31,11 +31,34 @@ The level asks players to switch among:
 - **Owlet:** a glide that slows falling while preserving horizontal momentum
 - **Dude:** an arrow that breaks crystal barriers
 
+### Character ability breakdowns
+
+The following diagrams summarize how each character changes the way the player moves through or interacts with the cave.
+
+![Bunny ability breakdown showing the air-dash route](evidence/bunny-ability.png)
+
+![Owlet ability breakdown showing the glide and retained momentum](evidence/owlet-ability.png)
+
+![Dude ability breakdown showing the crystal-breaking arrow](evidence/dude-ability.png)
+
 ## Design approach
 
 I designed the route so that changing characters was part of solving the level, not just a cosmetic choice. Tutorial spaces introduce one ability at a time, then later sections combine those abilities and place limits on how often the player can switch.
 
 The switching meter became the main constraint. It prevents constant swapping and makes the player consider which character is needed before entering the next section.
+
+### Level-design examples
+
+The opening establishes the escape objective before introducing the character-specific challenges.
+
+![Opening of the cave level with the escape objective](evidence/cave-opening.png)
+
+The blocked route presents a visible obstacle, while the Bunny tutorial teaches an ability inside the level rather than through a separate instruction screen.
+
+<p>
+  <img src="evidence/blocked-route.png" alt="Blocked crystal route prompting the player to find another solution" width="44%">
+  <img src="evidence/bunny-tutorial.png" alt="In-level tutorial explaining Bunny's air dash" width="53%">
+</p>
 
 ## Development evidence
 
