@@ -2,7 +2,7 @@
 
 A 2D cave-escape platformer built in Godot around one central question: how can a single level make three different character abilities necessary?
 
-![Swap Monsters cave level](https://www.charliebarra.com/assets/images/swap-monsters/swap-monsters-hero.png)
+![Swap Monsters gameplay showing the cave route and Bunny character](evidence/gameplay-screenshot.png)
 
 ## Project snapshot
 
@@ -36,6 +36,30 @@ The level asks players to switch among:
 I designed the route so that changing characters was part of solving the level, not just a cosmetic choice. Tutorial spaces introduce one ability at a time, then later sections combine those abilities and place limits on how often the player can switch.
 
 The switching meter became the main constraint. It prevents constant swapping and makes the player consider which character is needed before entering the next section.
+
+## Development evidence
+
+These materials document the seven-day build and selected implementation details. The code images are screenshots of original GDScript from the project. They provide evidence of Charlie's work but are not a complete, runnable source release.
+
+### Daily progress journal
+
+The [seven-day development journal](evidence/daily-progress-journal.pdf) records the sequence from adapting the starter framework through building the state machine, character switching, unique abilities, switching meter, map, and final level.
+
+### Selected GDScript
+
+The switching example shows character-state changes, meter limits and recharge, and ability-state handling.
+
+![GDScript showing character switching, meter recharge, and ability-state handling](evidence/character-switching-code.png)
+
+The projectile example shows arrow creation, direction handling, scene placement, and spawn positioning.
+
+![GDScript showing arrow instantiation and left-right direction handling](evidence/arrow-spawning-code.png)
+
+### Gameplay walkthrough
+
+[![Swap Monsters walkthrough thumbnail](evidence/walkthrough-thumbnail.png)](https://youtu.be/zS3NLN07p0Y)
+
+[Watch the complete gameplay walkthrough on YouTube](https://youtu.be/zS3NLN07p0Y).
 
 ## Attribution
 
