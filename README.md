@@ -11,7 +11,7 @@ A 2D cave-escape platformer built in Godot around one central question: how can 
 - **Engine and language:** Godot and GDScript
 - **Foundation:** Endless Access Moddable Platformer starter framework
 - **Status:** Completed and published playable level
-- **Recognition:** Best Unique Character Abilities; nominated by the instructor for an RIT alumni award
+- **Recognition:** Best Unique Character Abilities
 
 ## What I built
 
