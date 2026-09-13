@@ -78,6 +78,15 @@ The projectile example shows arrow creation, direction handling, scene placement
 
 ![GDScript showing arrow instantiation and left-right direction handling](evidence/arrow-spawning-code.png)
 
+### Selected source files
+
+- [`player_main.gd`](src/player_main.gd): state-driven movement, character switching, meter management, dash, glide, and shooting
+- [`player_state.gd`](src/player_state.gd): callable state object used by the player controller
+- [`projectile.gd`](src/projectile.gd): arrow movement, range, collision, and breakable-object interaction
+- [`breakable.gd`](src/breakable.gd): crystal destruction effects and collision disabling
+
+These scripts depend on project scenes, named child nodes, timers, input actions, audio and visual assets, and a projectile resource that are not included here. They are selected implementation evidence, not a complete runnable Godot project.
+
 ### Gameplay walkthrough
 
 [![Swap Monsters walkthrough thumbnail](evidence/walkthrough-thumbnail.png)](https://youtu.be/zS3NLN07p0Y)
@@ -92,7 +101,7 @@ Visual and audio assets came from credited third-party sources, including CraftP
 
 ## Repository status
 
-This repository currently documents the project and its design process. The complete Godot source project has not yet been published here.
+This repository documents the project and its design process and includes four selected GDScript files from the game. The complete Godot project, including scenes, resources, configuration, and assets, has not been published here.
 
 ## Project links
 
